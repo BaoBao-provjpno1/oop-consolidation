@@ -1,3 +1,4 @@
+//bank.ts
 class bankAccount{
     private accountNumber: string;
     private balance: number;
