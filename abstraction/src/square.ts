@@ -7,12 +7,20 @@ export class Square extends Shape {
     super();
     this.side = side;
   }
-  //area
-  public area(): number {
-    return this.side * 4;
-  }
   //perimeter
   public perimeter(): number {
     return this.side * this.side;
   }
+  //area overloading
+  public area(): number;
+  public area(a:string): string;
+
+  public area(a?:string): string | number{
+    if (a === undefined) 
+      return this.side*this.side;
+    else if (typeof a === "string")
+      return "type of a must be a number";
+    return "invalid";// case: invalid input
+  }
+   
 }
