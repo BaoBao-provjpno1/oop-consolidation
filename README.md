@@ -12,9 +12,14 @@
 - [TypeScript](https://www.typescriptlang.org/) and [ts-node](https://typestrong.org/ts-node/) for running TypeScript directly in Node.js
 
 Install `TypeScript` and `ts-node` globally if you haven't already:
-  
+
 npm install -g typescript ts-node
+npx tsc --init
 
 ### Running
+
 ts-node main.ts
+
+```
+
 ```
