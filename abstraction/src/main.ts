@@ -2,7 +2,7 @@
 import { Square } from "./square";
 import { Circle } from "./circle";
 //constructor
-const square = new Square(4);
+const square = new Square(5);
 const cirle = new Circle(5);
 
 console.log("area of square:", square.area());

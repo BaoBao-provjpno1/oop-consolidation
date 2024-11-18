@@ -1,5 +1,5 @@
 //bank.ts
-class bankAccount {
+export class bankAccount {
   private accountNumber: string;
   private balance: number;
   //constructor
@@ -26,7 +26,4 @@ class bankAccount {
     return this.balance;
   }
 }
-const acount = new bankAccount("YoungBooprovjp", 9000);
-acount.deposit(500);
-acount.withdraw(5800);
-console.log(acount.getBalance);
+
