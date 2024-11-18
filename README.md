@@ -1,9 +1,3 @@
-### Classes
-
-- **Shape**: An abstract class that defines the structure of all shapes with methods `area()` and `perimeter()` to be implemented by subclasses.
-- **Square**: A concrete class extending `Shape`, representing a square with a given side length.
-- **Circle**: A concrete class extending `Shape`, representing a circle with a given radius.
-
 ## Getting Started
 
 ### Prerequisites
