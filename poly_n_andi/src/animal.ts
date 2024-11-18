@@ -10,6 +10,3 @@ export class Animal {
     console.log("what the animal say?");
   }
 }
-
-
-

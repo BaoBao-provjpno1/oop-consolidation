@@ -26,4 +26,3 @@ export class bankAccount {
     return this.balance;
   }
 }
-

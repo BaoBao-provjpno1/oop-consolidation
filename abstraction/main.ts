@@ -1,6 +1,6 @@
 //main.ts
-import { Square } from "./square";
-import { Circle } from "./circle";
+import { Square } from "./src/square";
+import { Circle } from "./src/circle";
 //constructor
 const square = new Square(5);
 const cirle = new Circle(5);
